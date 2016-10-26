@@ -9,6 +9,9 @@ And User can control the Job start when certain time through the HTTP protocol(G
 1. Akka scheduling service
 2. Akka HTTP service
 
+### Running Flow
+User -> start Event (WEB) -> HTTP -> AKKA HTTP service -> send Message -> Akka scheduling service -> job running
+
 ### Server init
 <pre><code>
 object Server extends App {
