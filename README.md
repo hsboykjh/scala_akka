@@ -1,7 +1,8 @@
 # scala_akka
 
-Scheduling service based Akka is running ( Time set in config trigers the Job event )
-And User can control the Job start when certain time through the HTTP protocol(GET/POST)
+Scheduling service based Akka is running ( Time set in config trigers the Job event ).
+
+And User can control the Job start when certain time through the HTTP protocol(GET/POST).
 
 
 ## Server
